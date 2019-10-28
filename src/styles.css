@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.item {
+  background: white;
+  padding: 8px;
+  min-height: 90px;
+  box-shadow: 0 1px #FFFFFF inset,
+    0 1px 3px rgba(34, 25, 25, 0.4);
+}
